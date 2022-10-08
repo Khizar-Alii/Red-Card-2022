@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    height: 20vh;
+    background-color: brown;
+    object-fit: contain;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+header img{
+    height: inherit; 
+}
+.section-1{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    border-radius: 0 0 100px 0;
+}
+.section-1 h1{
+    font-size: 5rem;
+    color: white;
+}
+.section-1 h2{
+    font-size: 2rem;
+    color: black;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+.section-1 p{
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+}
+.section-2{
+    padding: 5% 10%;
+    line-height: 50px;
+}
+.section-2 h1{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 4rem;
+}
+.inner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.inner-section aside{
+    display: inline-block;
+    margin: auto;
+    max-width: 225px;
+    text-align: center;
+    justify-content: space-around;
+}
+.inner-section aside img{
+    width: 100px;
+    height: 100px;
+}
+footer{
+    padding: 10%;
+    border-radius: 0px 0px 100px 0px;
+    background-color: brown;
+}
+footer h1{
+    font-size: 4rem;
+    color: white;
+}
